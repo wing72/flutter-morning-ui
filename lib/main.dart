@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'ui_0724.dart';
+import 'ui_0729.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: Home0724(),
+      home: Home0729(),
     );
   }
 }
