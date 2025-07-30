@@ -56,11 +56,11 @@ class Home0729 extends StatelessWidget {
                 Text("9", style: TextStyle(fontSize: 18)),
                 SizedBox(width: 35),
                 Text("10", style: TextStyle(fontSize: 18)),
-                SizedBox(width: 36),
+                SizedBox(width: 32),
                 Text("11", style: TextStyle(fontSize: 18)),
-                SizedBox(width: 34),
+                SizedBox(width: 33),
                 Text("12", style: TextStyle(fontSize: 18)),
-                SizedBox(width: 30),
+                SizedBox(width: 32),
                 Text("13", style: TextStyle(fontSize: 18)),
               ],
             ),
@@ -101,7 +101,64 @@ class Home0729 extends StatelessWidget {
               ],
             ),
             SizedBox(height: 65),
-            Row(children: [Text("25", style: TextStyle(fontSize: 30))]),
+            Row(
+              children: [
+                Text(
+                  "25",
+                  style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                SizedBox(width: 30),
+                Text(
+                  "Today",
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                SizedBox(width: 110),
+                Text(
+                  "View all",
+                  style: TextStyle(
+                    fontSize: 18,
+                    color: Colors.redAccent,
+                  ),
+                ),
+              ],
+            ),
+            Row(
+              children: [
+                SizedBox(width: 5),
+                Text(
+                  "sun",
+                  style: TextStyle(
+                    fontSize: 16,
+                  ),
+                ),
+                SizedBox(width: 36),
+                Text(
+                  "I events and 2 tasks ",
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: Colors.grey[300],
+                  ),
+                ),
+              ],
+            ),
+            SizedBox(height: 40),
+            Row(
+              children: [
+                SizedBox(width: 5),
+                Text(
+                  "Wing",
+                  style: TextStyle(
+                    fontSize: 16,
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
